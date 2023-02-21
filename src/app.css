@@ -1,4 +1,9 @@
 /* LAYOUT */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .app {
   height: 100vh;
   display: flex;
@@ -31,6 +36,7 @@
   font-size: 1.5rem;
   padding-left: 0.75rem;
 }
+
 /* LAYOUT */
 
 /* TASK */
@@ -89,9 +95,11 @@
 .normal {
   background-color: #ffd9d4;
 }
+
 .urgent {
   background-color: #d4d7ff;
 }
+
 /* TASK */
 
 /* FORM */
@@ -161,4 +169,5 @@
   cursor: not-allowed;
   box-shadow: none;
 }
+
 /* FORM */
